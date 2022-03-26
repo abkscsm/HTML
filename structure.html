@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Structure</title>
+	<script type="text/javascript" src="js/sample.js"></script>
+	<style type="text/css">
+		body{
+			background-color: black;
+			color: white;
+		}
+		button{
+			font-size: 20px;
+			padding: 15px;
+		}
+	</style>
+	<script type="text/javascript">
+		function somefunction() {
+			document.getElementById('welcome').innerHTML = 'Welcome to Web Tech!!!'
+		}
+	</script>
+</head>
+<body>
+	<center><h1 id="welcome">HTML Structure</h1></center>
+	<center><button id="click-me" onclick="somefunction()">Show Welcome</button></center>
+</body>
+</html>
