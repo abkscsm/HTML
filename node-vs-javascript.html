@@ -1,0 +1,19 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="">
+  <p>Name : <input type="text" ng-model="displayname"></p>
+  <!-- <p>Name : <input type="text" id="name" oninput="displayName()"></p> -->
+  <h1>Hello {{displayname}}</h1>
+  <!-- <h1>Hello <span id="nameval"></span></h1> -->
+</div>
+<!-- <script type="text/javascript">
+  function displayName(){
+    var str = document.getElementById("name").value;
+    document.getElementById("nameval").innerHTML=str;
+  }
+</script> -->
+</body>
+</html> 

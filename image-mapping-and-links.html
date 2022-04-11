@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image Link and Mapping</title>
+	<style type="text/css">
+		img{
+			width: 100%;
+		}
+		.imgwrap{
+			width: 70%;
+			border: 4px solid black;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="imgwrap">
+		<img src="source/images/mapping.jpg" alt="google" align="center" usemap="#imgmap">
+	</div>
+	
+	<map name="imgmap">
+		<area shape="rect" coords="45,30,250,154" href="https://www.google.com">
+		<area shape="circle" coords="158,250,100" href="https://www.yahoo.com"">
+	</map>
+	<!-- <a href="https://www.google.com" target="_parent">
+		<img src="source/images/google.png" alt="google" align="center" width="600">
+	</a> -->
+	<!-- <script type="text/javascript">
+		document.addEventListener('mousemove', (event) => {
+			console.log(`Mouse X: ${event.clientX}, Mouse Y: ${event.clientY}`);
+		});
+	</script> -->
+</body>
+</html>
